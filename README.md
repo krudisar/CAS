@@ -10,9 +10,13 @@ Cloud Automation Services related tips/tricks ....
 - How to Use Remote Access Authentication in your Cloud Assembly Deployments - (https://blogs.vmware.com/management/2018/11/remote-access-in-cloud-assembly.html)
 - Introducing Blueprint Expressions in Cloud Assembly - (https://blogs.vmware.com/management/2019/02/blueprinting-expressions-in-cloud-assembly.html)
 
+=====
+
 - Introducing GitLab Integration in Cloud Assembly (https://blogs.vmware.com/management/2019/01/gitlab-integration-cloud-assembly.html)
 - Introducing GitHub Support in Cloud Assembly (https://blogs.vmware.com/management/2019/04/introducing-github-support-cloud-assembly.html)
 - Introducing Git Support for Action Based Extensibility Inside Cloud Assembly (https://blogs.vmware.com/management/2019/04/introducing-git-with-abx.html)
+
+=====
 
 - Introducing Enterprise PKS Integration in Cloud Assembly (https://blogs.vmware.com/management/2019/04/introducing-pks-enterprise-integration-in-cloud-automation-services.html)
 
