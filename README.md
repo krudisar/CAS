@@ -32,7 +32,7 @@ Cloud Automation Services related tips/tricks ....
 - Service Broker – Serverless Extensibility (ABX) and Workflow (vRO) as Content Sources (https://blogs.vmware.com/management/2019/04/service-broker-serverless-extensibility-abx-and-workflow-vro-as-content-sources.html)
 
 # Code Stream
-- https://blogs.vmware.com/management/2019/04/trigger-pipelines-from-docker-registry-updates-in-vmware-code-stream.html (https://blogs.vmware.com/management/2019/04/trigger-pipelines-from-docker-registry-updates-in-vmware-code-stream.html)
+- Trigger Pipelines From Docker Registry Updates in VMware Code Stream (https://blogs.vmware.com/management/2019/04/trigger-pipelines-from-docker-registry-updates-in-vmware-code-stream.html)
 - Integrations Available For VMware Code Stream (https://blogs.vmware.com/management/2019/05/integrations-available-for-vmware-code-stream.html)
 
 
