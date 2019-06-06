@@ -16,6 +16,13 @@ Cloud Automation Services related tips/tricks ....
 
 - Introducing Enterprise PKS Integration in Cloud Assembly (https://blogs.vmware.com/management/2019/04/introducing-pks-enterprise-integration-in-cloud-automation-services.html)
 
+======
+
+- Ansible Integration Comes to Cloud Assembly! (https://blogs.vmware.com/management/2019/05/ansible-integration-cloud-assembly.html)
+- Integrate Puppet with Cloud Assembly (https://blogs.vmware.com/management/2018/10/puppet-in-cloud-assembly.html)
+
+======
+
 # Service Broker
 - Cloud Automation Services – Service Broker Technical Overview (https://blogs.vmware.com/management/2018/10/cas-service-broker-technical-overview.html)
 - Service Broker – Serverless Extensibility (ABX) and Workflow (vRO) as Content Sources (https://blogs.vmware.com/management/2019/04/service-broker-serverless-extensibility-abx-and-workflow-vro-as-content-sources.html)
