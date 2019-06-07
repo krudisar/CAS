@@ -18,6 +18,10 @@ Cloud Automation Services related tips/tricks ....
 
 =====
 
+- Creating Tags in NSX with Cloud Assembly - (https://blogs.vmware.com/management/2019/05/tagging-nsx-networks-cloud-assembly.html)
+
+=====
+
 - Introducing Enterprise PKS Integration in Cloud Assembly (https://blogs.vmware.com/management/2019/04/introducing-pks-enterprise-integration-in-cloud-automation-services.html)
 
 ======
