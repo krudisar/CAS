@@ -2,7 +2,7 @@ formatVersion: 1
 inputs:
   platform:
     type: string
-    title: Select Platform
+    title: Select Platform Test
     default: 'platform:aws'
     oneOf:
       - title: Amazon Web Services
