@@ -1,0 +1,47 @@
+name: Moff-Ansible-Server
+version: v14
+# inputs: {}
+inputs:
+  env:
+    type: string
+    enum:
+      - AWS
+      - VSPHERE
+    default: AWS
+    title: Environment
+    description: Target Environment
+resources:
+  Cloud_Machine_1:
+    type: Cloud.Machine
+    properties:
+      image: OAI-Base-Image
+      flavor: OAI-R4-Small
+      tags:
+        - key: 'workload-type'
+          value: 'ansible-server'
+      remoteAccess:
+        authentication: keyPairName
+        keyPair: ansible-host
+      constraints:
+#        - tag: 'cloud:vsphere'
+#        - tag: 'primary'
+#        - tag: '${to_lower(input.env)}'
+        - tag: '${"cloud:" + to_lower(input.env)}'               
+      cloudConfig: |
+        chpasswd:
+          list: |
+            ubuntu:'defaultpassword'
+          expire: 'false'
+        runcmd:
+          - sudo apt-get update -y && sudo apt-get upgrade -y 
+          - sudo apt install -y python-minimal
+          - sudo apt install python-pip -y
+          - sudo apt-add-repository ppa:ansible/ansible -y
+          - sudo apt-get update -y && sudo apt-get upgrade -y
+          - sudo apt install -y python-minimal
+          - sudo sh -c 'sed -i -e 's/#log_path/log_path/g' /etc/ansible/ansible.cfg'
+          - sudo ssh-import-id-gh moffzilla
+          - sudo sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/g'  /etc/ssh/sshd_config
+          - sudo service sshd restart
+          - echo "Complete" > /home/ubuntu/status.txt
+#          - sudo ssh-import-id-gh moffzilla
